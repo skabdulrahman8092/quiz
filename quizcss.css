@@ -1,0 +1,92 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+#quiz {
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid black;
+    background-color: bisque;
+}
+
+#question {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+#answers {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+}
+p {
+ text-align: center;
+ font-size: larger;
+ background-color: gold;
+ 
+
+}
+#answers label {
+	display: block;
+	padding: 10px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+#answers input[type="radio"] {
+	display:table-footer-group;
+}
+
+#answers label:hover {
+	background-color: lightgray;
+	
+}
+
+#submit {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#submit:hover {
+	background-color: rgb(21, 196, 30);
+}
+
+#score {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 24px;
+    background-color: aqua;
+}
+button a {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 1.5rem;
+
+  }
+  button :hover{
+	background-color: greenyellow;
+}
+
+  #bt {
+	background-color: rgb(207, 94, 94);
+	margin-left: 80px;
+	
+  }
+#k2 
+{
+ width: 500px;;
+ background-color: fuchsia;
+ padding: 25px 50px 75px 100px;
+ margin-top: 40px;
+ margin-left: 280px;
+}
